@@ -1,7 +1,7 @@
 # F743_scrapy_project
 
 ### instruction to run
-scrapy crawl mostactive -o -file_name.csv
+scrapy crawl mostactive -o your_file_name.csv
 
 ### this project pulls daily stock data from https://finance.yahoo.com/most-active/ to get the most active 25 stocks and save items/data points include
 stock_name, intraday_price, price_change, current_timestamp, prev_close, open_price, bid,
